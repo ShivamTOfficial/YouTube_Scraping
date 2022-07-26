@@ -71,6 +71,9 @@ You may as well [watch the video]() (coming soon) to get a better idea of what's
 
     channel_data.to_csv('channel_stats.csv', index = False)
     
+![image](https://user-images.githubusercontent.com/91784043/180909296-8da72695-dedb-4f18-8a65-9a1b3ea04b5e.png)
+<br/><br/>
+
 ### Data Cleaning
 
     channel_data['Subscribers'] = pd.to_numeric(channel_data['Subscribers'])
